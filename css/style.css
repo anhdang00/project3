@@ -1,3 +1,4 @@
+/*all pages*/
 body{
   background-color: rgb(224, 255, 257);
 }
@@ -42,7 +43,35 @@ body{
 }
 
 #navbar a{
-    font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
-    font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 18px;
 }
+/*first page*/
+
+/*second page*/
+.images{
+  height: 300px;
+  float: none;
+  padding: 10px 5px 30px 30px;
+}
+
+#firstrow, #secondrow, #origami, #playdoh{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#secondrow img{
+  width: 235px;
+}
+
+#playdoh img{
+  width: 250px;
+}
+
+#origami img{
+  padding: 10px 10px 30px 40px;
+}
+/*third page*/
