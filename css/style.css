@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(224, 255, 257);
+}
+
+#navbar-container{
+  width: 100%;
+  float: left;
+  position: relative;
+  border: 4px dotted cadetblue;
+}
+
+#navbar{
+  background-color: #b9deea;
+  overflow: hidden;
+}
+
+#navbar ul{
+  list-style-type: none;
+  margin: 0;
+  left: 50%;
+  float: left;
+  position: relative;
+  padding: 0;
+}
+
+#navbar ul li{
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: cadetblue;
+}
+
+#navbar ul li a:hover{
+  background-color: rgb(70,130,160);
+  color: white;
+}
+
+#navbar a{
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
