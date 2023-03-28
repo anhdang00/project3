@@ -116,13 +116,15 @@ body{
   /*padding: 10px 5px 30px 30px;*/
   position: relative;
   align-items: center;
+  margin-top: 10px;
 }
 
 #hobbies img:hover{
   border: 10px white solid;
   height: 350px;
   width: auto;
-  transition: height 2s, width 2s;
+  transition: height 1s, width 1s;
+  transition-timing-function: ease-out;
 }
 
 #firstrow, #secondrow, #origami-img, #playdoh-img{
@@ -161,13 +163,15 @@ body{
   width: 60%;
   margin-right: auto;
   margin-left: auto;
+  font-family: monospace;
+  opacity: .7;
 }
 
 
-#hobbies p{
+.description{
   opacity: 0.7;
   color: brown;
-  width: 70%;
+  width: 65%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -175,7 +179,7 @@ body{
 
 #hobbies h2{
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 
 /*third page*/
