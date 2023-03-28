@@ -113,14 +113,16 @@ body{
 .images{
   height: 300px;
   float: none;
-  padding: 10px 5px 30px 30px;
+  /*padding: 10px 5px 30px 30px;*/
   position: relative;
   align-items: center;
 }
 
 #hobbies img:hover{
-  height: 500px;
+  border: 10px white solid;
+  height: 350px;
   width: auto;
+  transition: height 2s, width 2s;
 }
 
 #firstrow, #secondrow, #origami-img, #playdoh-img{
@@ -144,6 +146,7 @@ body{
 #hobbies{
   margin-right: 5em;
   font-family: Garamond;
+  text-align: center;
 }
 
 #hobbies h1, #hobbies h2{
@@ -151,7 +154,7 @@ body{
 }
 
 #intro{
-  color: darkseagreen;
+  color: brown;
   font-style: italic;
   text-align: center;
   display: block;
@@ -160,14 +163,20 @@ body{
   margin-left: auto;
 }
 
-#hobbies h1{
-  text-align: center;
-}
 
 #hobbies p{
   opacity: 0.7;
+  color: brown;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#hobbies h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /*third page*/
 #catpage{
