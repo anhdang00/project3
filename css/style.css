@@ -183,7 +183,7 @@ body{
   margin-left: auto;
   font-family: monospace;
   opacity: .7;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
 }
 
 
@@ -197,7 +197,7 @@ body{
 }
 
 #hobbies h2{
-  padding-top: 10px;
+  padding-top: 2em;
   padding-bottom: 7px;
 }
 
