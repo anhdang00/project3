@@ -56,6 +56,23 @@ body{
   display: block;
 }
 /*first page*/
+.border-top{
+  border-top: 2px solid #568f8f;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 50%;
+  height: 5px;
+}
+.border-bottom{
+  border-bottom: 2px solid #568f8f;
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 50%;
+  height: 15px;
+}
+
 #hobbies{
   margin-left: 5em;
   margin-top: 3em;
@@ -64,11 +81,11 @@ body{
 
 #resume{
   width: 1500px;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 #personal-info, #education, #work, #skill, #certificate{
-  border-left: 2px solid;
+  
   border-color: #568f8f;
   margin-left: 1em;
   position: relative;
@@ -81,12 +98,13 @@ body{
 
 #resume h1{
   font-size: 60px;
-
+  margin-left: 25px;
 }
 
 #resume h2{
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  margin-left: 1em;
 }
 
 #skill ul, #certificate ul{
@@ -171,7 +189,7 @@ body{
 .description{
   opacity: 0.7;
   color: brown;
-  width: 65%;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
