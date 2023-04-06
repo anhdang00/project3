@@ -261,6 +261,17 @@ body{
   margin: 0;
 }
 
+/*google map style*/
+#map {
+  width: 800px;
+  height: 600px;
+}
+      
+#map-container{
+  width: 1000px;
+  height: 600px;
+  }
+/*media queries*/
 @media (min-width: 767px){
 
 }
