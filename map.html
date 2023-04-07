@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>My Google Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+    <script async src="js/script.js"></script>
   </head>
   <body>
+    <nav id="navbar-container">
+      <div id="navbar">
+        <ul>
+          <li><a href="index.html">Resume</a></li>
+          <li><a href="page2.html">Hobbies</a></li>
+          <li><a href="page3.html">Surprise</a></li>
+          <li id="onpage"><a href="map.html">Map</a></li>
+        </ul> 
+      </div>
+    </nav>
     <div id="map-container">
       <div id="map"></div>
-        <script>
-          var map;
-          function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: -34.397, lng: 150.644},
-              zoom: 8
-            });
-          }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
-        async defer></script>
     </div>
   </body>
 </html>

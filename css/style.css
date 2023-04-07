@@ -2,6 +2,9 @@
 body{
   background-color: rgb(224, 255, 257);
 }
+body, html{
+  width: 100%;
+}
 
 #navbar-container{
   width: 100%;
@@ -13,6 +16,7 @@ body{
 #navbar{
   background-color: #b9deea;
   overflow: hidden;
+  width: 100%;
 }
 
 #navbar ul{
@@ -80,7 +84,7 @@ body{
 }
 
 #resume{
-  width: 1500px;
+  width: 1000px;
   margin-left: 125px;
 }
 
@@ -99,6 +103,7 @@ body{
 #resume h1{
   font-size: 60px;
   margin-left: 25px;
+  overflow: hidden;
 }
 
 #resume h2{
@@ -265,11 +270,12 @@ body{
 #map {
   width: 800px;
   height: 600px;
+  margin: 100px;
 }
       
 #map-container{
   width: 1000px;
-  height: 600px;
+  height: 800px;
   }
 /*media queries*/
 @media (min-width: 767px){
