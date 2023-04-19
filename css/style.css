@@ -266,6 +266,12 @@ body, html{
   margin: 0;
 }
 
+.dog{
+  height: 400px;
+  width: auto;
+  margin-left: 5em;
+}
+
 /*google map style*/
 #map {
   width: 800px;
@@ -319,6 +325,11 @@ body, html{
   #resume{
     margin-left: 30px;
   }
+  .dog{
+    height: 300px;
+    width: 400px;
+    margin-left: 1em;
+  }
 }
 
 @media (min-width: 1024px){
@@ -352,5 +363,12 @@ body, html{
     display: block;
     margin-left: 30%;
     overflow: hidden;
+  }
+
+  .dog{
+    height: 400px;
+    width: auto;
+    margin-left: 20em;
+    margin-right: auto;
   }
 }
