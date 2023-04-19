@@ -270,18 +270,87 @@ body, html{
 #map {
   width: 800px;
   height: 600px;
-  margin: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 20px solid lightsalmon;
 }
       
 #map-container{
   width: 1000px;
   height: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 /*media queries*/
-@media (min-width: 767px){
+@media (max-width: 767px){
+  #catpage img{
+    width: 300px;
+  }
 
+  #catpage video{
+    width: 400px;
+  }
+
+  .images{
+    width: 300px;
+    height: auto;
+    float: none;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  #navbar a{
+    font-size: 16px;
+  }
+  #navbar ul li a{
+    display: block;
+    padding: 10px 30px;
+  }
+
+  #resume h1{
+    font-size: 50px;
+    margin-left: 15px;
+    overflow: hidden;
+  }
+
+  #resume{
+    margin-left: 30px;
+  }
 }
 
 @media (min-width: 1024px){
-  
+  #catpage img{
+    width: 600px;
+  }
+
+  #catpage video{
+    width: 700px;
+  }
+
+
+  .images{
+    width: auto;
+    height: 350px;
+    float: none;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  #drawing img{
+    width: 250px;
+  }
+
+  #playdoh-img img{
+    width: 260px;
+  }
+
+  #resume{
+    display: block;
+    margin-left: 30%;
+    overflow: hidden;
+  }
 }
