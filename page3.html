@@ -7,6 +7,14 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt+Neon">
   <script src="js/script.js"></script>
+  <script src="splide/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="splide/dist/css/themes/splide-sea-green.min.css">
+  <script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide' );
+    splide.mount();
+  } );
+</script>
 </head>
   
 <body>
@@ -34,7 +42,19 @@
     <video controls>
       <source src="images/cat_sleeping.mp4" type="video/mp4">
     </video>
-    <p id="endnote">Hope this helps. Have a nice day :></p>
+    <p id="endnote">Those cats are not enough to cheer you up? What about these puppies? :></p>
   </div>
+  <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide"><img class="dog" src="images/dog1.jpeg"></li>
+        <li class="splide__slide"><img class="dog" src="images/dog2.jpeg"></li>
+        <li class="splide__slide"><img class="dog" src="images/dog3.jpeg"></li>
+        <li class="splide__slide"><img class="dog" src="images/dog4.jpeg"></li>
+        <li class="splide__slide"><img class="dog" src="images/dog5.jpeg"></li>
+      </ul>
+    </div>
+  </div>
+
 </body>
 </html>
