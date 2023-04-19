@@ -12,6 +12,7 @@ function initMap(){
     animation: google.maps.Animation.BOUNCE,
     icon: 'images/sticker.png'
   })
+  google.maps.event.addListener(marker, 'click', function(){alert("You've clicked on the carrot!");});
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);
